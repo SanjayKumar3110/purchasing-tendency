@@ -1,4 +1,4 @@
-# 🛒 Purchasing Tendency — AI-Powered E-Commerce Intelligence System
+# Purchasing Tendency — AI-Powered E-Commerce Intelligence System
 
 A full-stack Flask web application that leverages deep learning models (**TendGraphNet** and **SeqBehNet**) to analyse purchasing behaviour, generate product recommendations, detect community trends, and provide real-time demand insights for buyers, sellers, and admins.
 
@@ -97,7 +97,7 @@ Make sure the following are installed on your machine before proceeding:
 ```bash
 # Option A — Clone via Git
 git clone <your-repository-url>
-cd purchasing_tendency
+cd purchasing-tendency
 
 # Option B — Navigate to the folder directly (if already downloaded)
 cd path\to\purchasing_tendency
@@ -122,11 +122,6 @@ python -m venv .venv
 **Windows (Command Prompt):**
 ```cmd
 .venv\Scripts\activate.bat
-```
-
-**macOS / Linux:**
-```bash
-source .venv/bin/activate
 ```
 
 > Once activated, your terminal prompt will show `(.venv)` as a prefix.
@@ -154,7 +149,6 @@ The SQLite database `purchasing_tendency.db` should already be present in the pr
 ```bash
 # Confirm the file exists
 dir purchasing_tendency.db        # Windows
-ls purchasing_tendency.db         # macOS/Linux
 ```
 
 ### 6. Verify Dataset Files
@@ -204,12 +198,16 @@ http://127.0.0.1:5000
 ### 🛍️ Buyer
 | Action | URL |
 |--------|-----|
+| User | Password| 
+| Vijay  | `1234`|
 | Register | `http://127.0.0.1:5000/buyer_register` |
 | Login | `http://127.0.0.1:5000/buyer_login` |
 
 ### 🏪 Seller
 | Action | URL |
 |--------|-----|
+| User | Password| 
+| Raj  | `1234`|
 | Register | `http://127.0.0.1:5000/seller_register` |
 | Login | `http://127.0.0.1:5000/seller_login` |
 
